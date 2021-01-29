@@ -1,0 +1,16 @@
+.navbar-brand img{
+	width: 85px;
+	height: 45px;
+}
+.navbar-inverse {
+	background-color: #EDA200;
+}
+.navbar-inverse .btn-link ,.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	/*padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 40px;*/
+}
+.navbar-inverse .navbar-nav > li > a .dropdown-toggle {
+	padding-top: 22px;
+}

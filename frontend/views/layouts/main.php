@@ -112,7 +112,7 @@ AppAsset::register($this);
                         <i class="fa fa-map-marker"></i>
                     </div>
                     <div class="addet">
-                        A 232, Triveni Nagar, Jaipur 
+                        A 232, Triveni Nagar, Gopalpura Bypass Tonk Rd, Jaipur 
                     </div>
                 </div>
                 <div class="foot-address">
@@ -120,8 +120,8 @@ AppAsset::register($this);
                         <i class="fa fa-envelope-open"></i>
                     </div>
                     <div class="addet">
-                        info@Singhamsecurity.com <br>
-                        sales@Singhamsecurity.com
+                        info@singhamsecurity.com <br>
+                        sales@singhamsecurity.com
                     </div>
                 </div>
                 <div class="foot-address">
@@ -129,8 +129,7 @@ AppAsset::register($this);
                          <i class="fa fa-mobile"></i>
                     </div>
                     <div class="addet">
-                        +23 323 43434 <br>
-                        +1 3232 434 55
+                        +91 8559907709
                     </div>
                 </div>
             </div>
@@ -142,14 +141,14 @@ AppAsset::register($this);
                 </div>
                 <div class="blohjb">
                     <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
-                    <span>22-1-2019</span>
+                    <span>22-11-2020</span>
                 </div>
                 <div class="blohjb">
                     <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
-                    <span>22-1-2019</span>
+                    <span>12-4-2019</span>
                 </div>
             </div>
-            <div class="col-md-4 glink">
+            <div class="col-md-4 glink" style="float: right;">
                 <ul>
                     <li>
                     <?= Html::a('<i class="fa fa-angle-double-right"></i> Home',['site/signup'], ['title' => 'Home']) ?>
@@ -177,8 +176,8 @@ AppAsset::register($this);
     </div>
 </footer>
 
-<div class="quote quotefixed"> <a href="tel:+919928519150"><span>Get a free</span> <span>quote</span> <br/><br/>
-    <span><i class="fa fa-phone"></i>  +91 9928519150</span>
+<div class="quote quotefixed"> <a href="tel:+918559907709"><span>Get a free</span> <span>quote</span> <br/><br/>
+    <span><i class="fa fa-phone"></i>  +91 8559907709</span>
   <div class="freequoteget">  </div>
   </a> 
 </div>

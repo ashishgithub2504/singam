@@ -671,9 +671,9 @@ footer {
     cursor: pointer;
     display: block;
     font-size: 20px;
-    padding: 4px 0 0;
+    padding: 2px 0 0;
     position: absolute;
-    top: 50%;
+    top: 35%;
     z-index: 99;
     text-align: center;
     width: 35px;

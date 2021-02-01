@@ -65,10 +65,19 @@ class BannersController extends Controller
     public function actionCreate()
     {
         $model = new Banners();
-
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if(!empty(Yii::$app->request->post())) {
+            $postData = Yii::$app->request->post();
+            if(!empty($_FILES['Banners']['name']['image'])) {
+               $postData['Banners']['image'] = $this->uploadFiles($_FILES)['file_path'];
+            } else {
+                Yii::$app->session->setFlash('error', "Image should be mandatory");
+                return $this->redirect(['create']);
+            }
+            if ($model->load($postData) && $model->save()) {
+                return $this->redirect(['index']);
+            }    
         }
+        
 
         return $this->render('create', [
             'model' => $model,
@@ -86,9 +95,22 @@ class BannersController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if(!empty(Yii::$app->request->post())) {
+            $postData = Yii::$app->request->post();
+            if(!empty($_FILES['Banners']['name']['image'])) {
+               $postData['Banners']['image'] = $this->uploadFiles($_FILES)['file_path'];
+            } else {
+                Yii::$app->session->setFlash('error', "Image should be mandatory");
+                return $this->redirect(['create']);
+            }
+            if ($model->load($postData) && $model->save()) {
+                return $this->redirect(['index']);
+            }    
         }
+        
+        // if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        //     return $this->redirect(['view', 'id' => $model->id]);
+        // }
 
         return $this->render('update', [
             'model' => $model,
@@ -107,6 +129,33 @@ class BannersController extends Controller
         $this->findModel($id)->delete();
 
         return $this->redirect(['index']);
+    }
+
+    private function uploadFiles($files = []) {
+        $uploaded_files = [];
+        if (!empty($files)) {
+            // print_r($files); die;
+            $file_name = $files['Banners']['name']['image'];
+            if (!empty($file_name))
+                {
+                    $target_dir = Yii::getAlias('@frontend').'/web/uploads/banners';
+                    // die;
+                    if (!file_exists($target_dir)) {
+                        $old_umask = umask(0);
+                        mkdir($target_dir, 0777, true);
+                        umask($old_umask);
+                    }
+                    $file_name = time(). uniqid() . basename($file_name);
+                    
+                    $target_file = $target_dir.'/' .$file_name;
+                    $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
+                    
+                    if (move_uploaded_file($files['Banners']['tmp_name']['image'], $target_file)) {
+                        $uploaded_files = ['file_path' => $file_name, 'original_name' => $file_name];
+                    }
+                }
+        }
+        return $uploaded_files;
     }
 
     /**

@@ -29,7 +29,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandImage' => '/images/logo_50_1_300x200.png',
+        'brandImage' => '/images/copy_482585706.png',
         // 'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [

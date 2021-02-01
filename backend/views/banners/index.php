@@ -26,12 +26,19 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'image',
+            // 'id',
+            [
+                'label'=>'Image',
+                'format' => 'html',
+                'value' => function($model) {
+                    return Html::img('/uploads/banners/'.$model->image,['width' => '70px']);
+                }
+            ],
+            // 'image',
             'name',
             'title',
             'url:url',
-            //'status',
+            'status',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

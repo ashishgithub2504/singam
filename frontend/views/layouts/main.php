@@ -31,8 +31,8 @@ AppAsset::register($this);
        <header class="header-com">
            <div class="row no-margin">
                <div class="col-md-4 logo">
-                   <a href="index.html">
-                    <img src="images/2e820068-de61-48cd-9982-5da76be81bc3_200x200.png" alt="">
+                   <a href="/">
+                    <img src="/images/logo_50_1_300x200.png" alt="">
                     </a>
                </div>
                <div class="col-lg-6 col-md-8 nav-card">
@@ -41,11 +41,13 @@ AppAsset::register($this);
                       
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home </a>
+                            <li class="<?php echo ($this->context->route == 'site/index')?'nav-item active':'nav-item'; ?>">
+                                <a class="nav-link" href="/">Home </a>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+
+                            <li class="<?php echo ($this->context->route == 'site/about')?'nav-item active':'nav-item'; ?>">
+                                <?= Html::a('About Us', ['/site/about'], ['class'=>'nav-link']); ?>
+                                <!-- <a class="nav-link" href="/site/about">About Us</a> -->
                                 
                                 <!-- <ul class="dropdown-menu megamenu row max200">
                                     <li>
@@ -54,21 +56,25 @@ AppAsset::register($this);
                                 </ul> -->
                             </li>
                             <li class="nav-item dropdown">
-                            <a class="dropbtn nav-link" href="#">Services</a>
+                            <?= Html::a('Services', ['#'], ['class'=>'dropbtn nav-link']); ?>
+                            <!-- <a class="dropbtn nav-link" href="#">Services</a> -->
                                 <div class="dropdown-content">
                                     <a href="#">Security Services</a>
                                     <a href="#">Bouncer Services</a>
                                     <a href="#">Celebrity Security Services</a>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <li class="<?php echo ($this->context->route == 'site/gallery')?'nav-item active':'nav-item'; ?>">
+                            <?= Html::a('Gallery', ['/site/gallery'], ['class'=>'nav-link']); ?>
+                            <!-- <a class="nav-link" href="#">Gallery</a> -->
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                            <li class="<?php echo ($this->context->route == 'site/contact')?'nav-item active':'nav-item'; ?>">
+                                <?= Html::a('Contact Us', ['/site/contact'], ['class'=>'nav-link']); ?>
+                                <!-- <a class="nav-link" href="#">Contact Us</a> -->
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Carrier</a>
+                            <li class="<?php echo ($this->context->route == 'site/currier')?'nav-item active':'nav-item'; ?>">
+                                <?= Html::a('Currier', ['/site/currier'], ['class'=>'nav-link']); ?>
+                                <!-- <a class="nav-link" href="#">Carrier</a> -->
                             </li>
                         </ul>
                         </div>
@@ -198,6 +204,11 @@ AppAsset::register($this);
 <div class="social-facebook" title="Facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></div>
 <div class="social-twitter" title="Twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></div>
 <div class="social-hover2" title="phone"><a href="" target="_blank"><i class="fa fa-phone"></i></a></div>
+
+<div class="social-instagram" title="phone"><a href="" target="_blank"><i class="fa fa-instagram"></i></a></div>
+
+<div class="social-hover2" title="phone"><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+
 </div>
 <?php $this->endBody() ?>
 </body>

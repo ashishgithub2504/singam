@@ -257,4 +257,14 @@ class SiteController extends Controller
             'model' => $model
         ]);
     }
+
+    public function actionServices() {
+        echo 'dfss'; die;
+    }
+
+    public function actionGallery() {
+        return $this->render('gallery',[
+
+        ]);
+    }
 }

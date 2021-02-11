@@ -234,6 +234,9 @@ body {
 .container {
   max-width: 1100px; }
   @media screen and (max-width: 575px) {
+  .quote {
+    margin-right: 88px !important;
+  }
     .container {
       padding: 10px 15px; } }
 
@@ -403,6 +406,10 @@ body {
     margin-bottom: 20px; }
     .service-cover .serv-col .icon {
       margin-bottom: 20px; }
+    .service-cover .serv-col .icon img {
+      width: 100%;
+    }
+
       .service-cover .serv-col .icon i {
         font-size: 24px;
         width: 70px;
@@ -642,7 +649,7 @@ footer {
 
 .dropdown-content a:hover {background-color: #EDA200;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; width: 100%;}
 
 .dropdown:hover .dropbtn {background-color: #EDA200;}
 
@@ -706,10 +713,10 @@ footer {
     color: #FFF;
     border-radius: 0 5px 5px 0;
 }
-.social-hover2 a , .social-twitter a , .social-facebook a {
+.social-instagram a,.social-hover2 a , .social-twitter a , .social-facebook a {
     color: #fff;
 }
-.social-hover2 i , .social-twitter i, .social-facebook i {
+.social-instagram i , .social-hover2 i , .social-twitter i, .social-facebook i {
     padding: 17px 18px;
 }
 .social-twitter {
@@ -730,6 +737,15 @@ footer {
     position: fixed;
     top: 230px;
     z-index: 100;
+}
+
+.social-instagram {
+    background: #2C3E7E;
+    left: 0;
+    width: 54px;
+    position: fixed;
+    top: 240px;
+    z-index: 100; 
 }
 .social-hover, .social-hover i, .social-hover2, .social-hover2 i, .social-hover3 i {
     line-height: 26px!important;

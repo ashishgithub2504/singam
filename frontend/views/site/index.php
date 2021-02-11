@@ -14,7 +14,7 @@ $this->title = 'Singam Security Service';
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="uploads/banners/Bouncer-Banner.jpg" alt="First slide">
+                    <img class="d-block w-100" src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/Bouncer-Banner_1600x560.jpg" alt="First slide">
                     <div class="carousel-caption fvgb d-none d-md-block">
                         <h5 class="animated bounceInDown">Bouncer Security Service Priovided</h5>
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
@@ -44,7 +44,7 @@ $this->title = 'Singam Security Service';
                 </div>
 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="uploads/banners/22image002.png" alt="Third slide">
+                    <img class="d-block w-100" src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/22image002_1600x560.png" alt="Third slide">
                      <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5>
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
@@ -116,7 +116,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/bodyguard.jpeg">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/bodyguard-security-services-500x500_270x185.jpg">
                             <!-- <i class="fa fa-shield-alt"></i> -->
                         </div>
                    </div>
@@ -142,14 +142,14 @@ $this->title = 'Singam Security Service';
                 </div>
                 <div class="col-md-3">
                    <div class="serv-col">
-                        <h6>Night Guard</h6>
+                        <h6>Security Guard</h6>
                         <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                           <img src="uploads/services/night.jpeg">
+                           <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/night-500x500_270x185.jpg">
                         </div>
                    </div>
                 </div>
@@ -162,7 +162,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/gateman.jpeg">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/gun-man-services-provider-500x500_270x185.png">
                         </div>
                         
                    </div>
@@ -170,7 +170,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/office.jpeg">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/office-security-guard-382_270x185.jpg">
                         </div>
                    </div>
                 </div>
@@ -183,7 +183,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/home.jpeg">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/home_270x185.jpeg">
                         </div>
                    </div>
                 </div>
@@ -192,7 +192,35 @@ $this->title = 'Singam Security Service';
                        <h6>Home Guard</h6>
                         <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
                    </div>
+                </div>                
+                <div class="col-md-3">
+                   <div class="serv-col">
+                       <h6>Valet Parking</h6>
+                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                   </div>
                 </div>
+                <div class="col-md-3">
+                   <div class="serv-col">
+                       <div class="icon">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/valet-parking-services-250x250_270x185.jpeg">
+                        </div>
+                   </div>
+                </div>
+                
+                <div class="col-md-3">
+                   <div class="serv-col">
+                       <h6>Housekeeping Service</h6>
+                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                   </div>
+                </div>
+                <div class="col-md-3">
+                   <div class="serv-col">
+                       <div class="icon">
+                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/housekeeping-services-500x500_270x185.png">
+                        </div>
+                   </div>
+                </div>
+
             </div>
         </div>
     </section>   

@@ -14,7 +14,7 @@ $this->title = 'Singam Security Service';
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/Bouncer-Banner_1600x560.jpg" alt="First slide">
+                    <img class="d-block w-100" src="uploads/banners/Bouncer-Banner_1600x560.jpg" alt="First slide">
                     <div class="carousel-caption fvgb d-none d-md-block">
                         <h5 class="animated bounceInDown">Bouncer Security Service Priovided</h5>
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
@@ -29,7 +29,7 @@ $this->title = 'Singam Security Service';
                 </div>
                 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="uploads/banners/set_up.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="uploads/banners/161202915660159ce4b1c86set_up_1600x560.jpg" alt="Third slide">
                      <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5>
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
@@ -44,7 +44,7 @@ $this->title = 'Singam Security Service';
                 </div>
 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/22image002_1600x560.png" alt="Third slide">
+                    <img class="d-block w-100" src="uploads/banners/22image002_1600x560.png" alt="Third slide">
                      <div class="carousel-caption vdg-cur d-none d-md-block">
                         <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5>
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
@@ -116,7 +116,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/bodyguard-security-services-500x500_270x185.jpg">
+                            <img src="uploads/services/bodyguard.jpeg">
                             <!-- <i class="fa fa-shield-alt"></i> -->
                         </div>
                    </div>
@@ -149,7 +149,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                           <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/night-500x500_270x185.jpg">
+                           <img src="uploads/services/night-500x500_270x185.jpg">
                         </div>
                    </div>
                 </div>
@@ -162,7 +162,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/gun-man-services-provider-500x500_270x185.png">
+                            <img src="uploads/services/gun-man-services-provider-500x500_270x185.png">
                         </div>
                         
                    </div>
@@ -170,7 +170,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/office-security-guard-382_270x185.jpg">
+                            <img src="uploads/services/office-security-guard-382_270x185.jpg">
                         </div>
                    </div>
                 </div>
@@ -183,7 +183,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/home_270x185.jpeg">
+                            <img src="uploads/services/home_270x185.jpeg">
                         </div>
                    </div>
                 </div>
@@ -202,7 +202,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/valet-parking-services-250x250_270x185.jpeg">
+                            <img src="uploads/services/valet-parking-services-250x250_270x185.jpeg">
                         </div>
                    </div>
                 </div>
@@ -216,7 +216,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="http://www.simpleimageresizer.com/_uploads/photos/a72a0b9c/housekeeping-services-500x500_270x185.png">
+                            <img src="uploads/services/housekeeping-services-500x500_270x185.png">
                         </div>
                    </div>
                 </div>
@@ -254,28 +254,25 @@ $this->title = 'Singam Security Service';
                 </div>
                 <div class="row customer-logos">
                         <div class="testimonial-slider client-card">
-                            <img src="uploads/clients/client-01.jpg" alt="">
+                            <img src="uploads/clients/FINALkebab11417694331_240x140.png" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/client-02.jpg" alt="">
+                            <img src="uploads/clients/firstcry-logo-png-4-300x200_240x140.png" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/client-03.jpg" alt="">
+                            <img src="uploads/clients/iconic_240x140.jpeg" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/client-04.jpg" alt="">
+                            <img src="uploads/clients/igp-com-logo_240x140.jpg" alt="">
                         </div>
                         <div class=" client-card testimonial-slider">
-                            <img src="uploads/clients/client-05.jpg" alt="">
+                            <img src="uploads/clients/kidsco_240x140.jpeg" alt="">
                         </div> 
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/client-06.jpg" alt="">
+                            <img src="uploads/clients/masala-minitry_240x140.jpg" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/client-07.jpg" alt="">
-                        </div>
-                        <div class=" client-card testimonial-slider">
-                            <img src="uploads/clients/client-08.jpg" alt="">
+                            <img src="uploads/clients/rgp-eye_240x140.jpeg" alt="">
                         </div>
                     </div>
             </div>

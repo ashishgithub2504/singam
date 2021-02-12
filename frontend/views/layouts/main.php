@@ -183,7 +183,7 @@ AppAsset::register($this);
 </footer>
 
 <div class="quote quotefixed"> <a href="tel:+918559907709"><span>Get a free</span> <span>quote</span> <br/><br/>
-    <span><i class="fa fa-phone"></i>  +91 8559907709</span>
+    <span class="blinker_me"><i class="fa fa-phone"></i>  +91 8559907709</span>
   <div class="freequoteget">  </div>
   </a> 
 </div>
@@ -207,7 +207,7 @@ AppAsset::register($this);
 
 <div class="social-instagram" title="phone"><a href="" target="_blank"><i class="fa fa-instagram"></i></a></div>
 
-<div class="social-hover2" title="phone"><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+<div class="social-linkedin" title="phone"><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></div>
 
 </div>
 <?php $this->endBody() ?>

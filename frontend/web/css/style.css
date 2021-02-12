@@ -401,7 +401,7 @@ body {
   background-color: #cccccc1a; }
   @media screen and (max-width: 940px) {
     .service-cover {
-      padding: 30px 10px; } }
+      padding: 0px 0px; } }
   .service-cover .serv-col {
     margin-bottom: 20px; }
     .service-cover .serv-col .icon {
@@ -491,7 +491,7 @@ body {
   background-color: #FFF; }
 
 .gallery {
-  padding: 30px;
+  /*padding: 30px;*/
   background-color: #fbfbfb; }
 
 .gallery-title {
@@ -533,7 +533,7 @@ body {
   width: 100%; }
 
 .gallery_product {
-  margin-bottom: 30px; }
+  margin-bottom: 10px; }
 
 .contact-us-single {
   background-color: #FFF; }
@@ -692,7 +692,7 @@ footer {
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
       color: #EDA200;
-    background-color: #eda200;
+    /*background-color: #eda200;*/
     width: 45px;
     height: 40px;
     border-radius: 5px;
@@ -713,10 +713,10 @@ footer {
     color: #FFF;
     border-radius: 0 5px 5px 0;
 }
-.social-instagram a,.social-hover2 a , .social-twitter a , .social-facebook a {
+.social-linkedin a, .social-instagram a,.social-hover2 a , .social-twitter a , .social-facebook a {
     color: #fff;
 }
-.social-instagram i , .social-hover2 i , .social-twitter i, .social-facebook i {
+.social-linkedin i ,.social-instagram i , .social-hover2 i , .social-twitter i, .social-facebook i {
     padding: 17px 18px;
 }
 .social-twitter {
@@ -740,11 +740,20 @@ footer {
 }
 
 .social-instagram {
-    background: #2C3E7E;
+    background: #2C3E4E;
     left: 0;
     width: 54px;
     position: fixed;
-    top: 240px;
+    top: 402px;
+    z-index: 100; 
+}
+
+.social-linkedin {
+    background: #2C3E9e;
+    left: 0;
+    width: 54px;
+    position: fixed;
+    top: 178px;
     z-index: 100; 
 }
 .social-hover, .social-hover i, .social-hover2, .social-hover2 i, .social-hover3 i {
@@ -763,7 +772,7 @@ footer {
 }
 
 .blinker_me {
-    /*animation: blinker 1s linear infinite;*/
+    animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {  
@@ -773,7 +782,7 @@ footer {
 .blinker_me i:after {
     width: 0;
     height: 0;
-    border-top: 37px solid #f2502d;
+    /*border-top: 37px solid #f2502d;*/
     border-right: 92px solid transparent;
     content: "";
     position: absolute;
@@ -805,7 +814,7 @@ footer {
     text-align: center;
     text-transform: uppercase;
     display: inline-block;
-    padding: 20px 10px 8px;
+    padding: 10px 10px 8px;
     line-height: 1.2;
     position: relative;
     font-weight: bold;
@@ -831,3 +840,40 @@ footer {
 }
 .col-md-4 { padding-left: 5px; padding-right: 5px; }
 ..service-cover .serv-col { padding: 0px; text-align: left; }
+
+@media screen and (max-width: 600px) {
+  .inner-title h2 {
+    font-size: 2rem;
+  }
+  .about-us .abut-yoiu h3 {
+    font-size: 2rem;
+  }
+  .client-detail {
+    padding: 0px 10px;
+  }
+  .d-none {
+    display: block !important;
+  }
+  .filter-button {
+    margin-bottom: 10px;
+  }
+  .gallery_product img { width: 100%; }
+  .gallery-filter { margin-top: 8%; }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+      width: 25px;
+      height: 20px;
+  }
+  .slider-detail .carousel-caption h5 { font-size: 16px; }
+  .slider-detail .vbh .btn { font-size: 10px; }
+  .slider-detail .fvgb , .slider-detail .vdg-cur { right: 20px; }
+  .quote a:after {
+      width: 100%;
+      height: 0;
+      border-top: 20px solid #EDA200;
+      border-right: 155px solid transparent;
+      content: "";
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+  }
+}

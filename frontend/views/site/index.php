@@ -16,7 +16,7 @@ $this->title = 'Singam Security Service';
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="uploads/banners/Bouncer-Banner_1600x560.jpg" alt="First slide">
                     <div class="carousel-caption fvgb d-none d-md-block">
-                        <h5 class="animated bounceInDown">Bouncer Security Service Priovided</h5>
+                        <!-- <h5 class="animated bounceInDown">Bouncer Security Service Priovided</h5> -->
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
                         aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br>
                          sed sagittis at, sagittis quis neque. Praesent.</p> -->
@@ -31,7 +31,7 @@ $this->title = 'Singam Security Service';
                 <div class="carousel-item ">
                     <img class="d-block w-100" src="uploads/banners/161202915660159ce4b1c86set_up_1600x560.jpg" alt="Third slide">
                      <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5>
+                        <!-- <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5> -->
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
                         aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br>
                          sed sagittis at, sagittis quis neque. Praesent.</p> -->
@@ -44,9 +44,9 @@ $this->title = 'Singam Security Service';
                 </div>
 
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="uploads/banners/22image002_1600x560.png" alt="Third slide">
+                    <img class="d-block w-100" src="uploads/banners/02_1600x560.jpg" alt="Third slide">
                      <div class="carousel-caption vdg-cur d-none d-md-block">
-                        <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5>
+                        <!-- <h5 class="animated bounceInDown">Best Security Guard Service Priovided</h5> -->
                         <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
                         aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br>
                          sed sagittis at, sagittis quis neque. Praesent.</p> -->
@@ -124,7 +124,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                         <h6>Body Gaurd</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>Bodyguards typically have extensive and specialized experience. Many are ex-military or special forces with unique skill sets that allow them to provide exceptional security services to their clients.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
@@ -137,13 +137,13 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Gun Man</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>Gun man security may have single security guard or a group of guards working in close coordination. Places where armed security is sought are banks, ATM machines, large shops and jewelry stores and other organization where cash or highly confidential data is kept.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
                    <div class="serv-col">
                         <h6>Security Guard</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>We are one of the reputed security service providers in the aspect of manned security. Our Security Guarding Services are of immense value as it is executed in an efficient manner at our clients’ location.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
@@ -156,7 +156,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Gate Man</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>Gate man always persent on gate and check every coming person and entry into the book.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
@@ -177,7 +177,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Office Guard</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>we will engaged in providing Office Security Guard to our appreciated customers. This Office Security Guard will provide you a secure and protective environment to follow all your daily routine. In addition to this, this service is provided at market leading price to our honored customers.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
@@ -190,19 +190,19 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Home Guard</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>To organise functional units to provide essential services such as Motor Transport Unit, Fire Fighting and Engineering Groups, Operation of water supply establishments, etc.To promote communal harmony and to give assistance to the administration in protecting the weaker sections of the society.</p>
                    </div>
                 </div>                
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Valet Parking</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>Indian value system is such that we treat our guests as god. We welcome them with flowers at entry gates & But we just forget the hassle they face in parking their vehicles.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/valet-parking-services-250x250_270x185.jpeg">
+                            <img src="uploads/services/night-500x500.jpg">
                         </div>
                    </div>
                 </div>
@@ -210,7 +210,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <h6>Housekeeping Service</h6>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque maximus metus at nisl aliquet lobortis. Praesent mollis quam et viverra placerat.</p>
+                        <p>Our team of housekeepers are trained to handle the latest equipments that form an integral part of the whole process, and to make the optimum use of various kinds of machines and materials to improve the quality of services.</p>
                    </div>
                 </div>
                 <div class="col-md-3">
@@ -236,11 +236,13 @@ $this->title = 'Singam Security Service';
                     
                 </p>
                 <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                    Singham Security serices establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation.
                     <br>
-                      If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                      <br>
-                        Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. able. The generated Lorem Ipsum is therefore always free from repetition, injected humou
+                    Our security services are provided for celebrities, events, corporates, embassies and hotels. We also offer Gun man security, Body Guard security, lady security officers, Valet parking, cash escort services, based on the needs of the customers.
+                    <br><br>
+                    <b>Client Satisfaction</b>
+                    <br>
+                    We have been successful in registering our capabilities and caliber through our flexible services. We offer qualitative and allied services to our esteem clients, which distinguish us from the other leading organizations. To ensure maximum level of customer satisfaction, we ensure that all the services provided by us are according to the client’s requirements and are completed within the specified time limit.    
                 </p>
             </div>
         </div>
@@ -254,25 +256,25 @@ $this->title = 'Singam Security Service';
                 </div>
                 <div class="row customer-logos">
                         <div class="testimonial-slider client-card">
-                            <img src="uploads/clients/FINALkebab11417694331_240x140.png" alt="">
+                            <img src="/uploads/clients/cnadc_2_240x140.jpeg" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/firstcry-logo-png-4-300x200_240x140.png" alt="">
+                            <img src="/uploads/clients/firstcry-logo-png-4-300x200_240x140.png" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/iconic_240x140.jpeg" alt="">
+                            <img src="/uploads/clients/iconic_240x140.jpeg" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/igp-com-logo_240x140.jpg" alt="">
+                            <img src="/uploads/clients/igp-com-logo_240x140.jpg" alt="">
                         </div>
                         <div class=" client-card testimonial-slider">
-                            <img src="uploads/clients/kidsco_240x140.jpeg" alt="">
+                            <img src="/uploads/clients/kidsco_240x140.jpeg" alt="">
                         </div> 
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/masala-minitry_240x140.jpg" alt="">
+                            <img src="/uploads/clients/masala-minitry_240x140.jpg" alt="">
                         </div>
                         <div class="client-card testimonial-slider">
-                            <img src="uploads/clients/rgp-eye_240x140.jpeg" alt="">
+                            <img src="/uploads/clients/rgp-eye_240x140.jpeg" alt="">
                         </div>
                     </div>
             </div>

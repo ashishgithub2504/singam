@@ -508,7 +508,9 @@ body {
   left: 46.5%;
   height: 45px;
   border-bottom: 1px solid #1c87d8; }
-
+#gallery {
+    margin-top: 100px;
+}
 .filter-button {
   font-size: 18px;
   border: 1px solid #1c87d8;
@@ -876,4 +878,16 @@ footer {
       bottom: -20px;
       left: 0;
   }
+}
+.contact-icon {
+  float: left;
+  margin-right: 5px;
+  color: #EDA200;
+}
+.contact-title {
+  color: #EDA200;
+  font-weight: bold;
+}
+.contact-info li {
+  margin-top: 25px;
 }

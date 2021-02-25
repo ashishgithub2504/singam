@@ -14,6 +14,7 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use common\models\Career;
 
 /**
  * Site controller
@@ -265,6 +266,12 @@ class SiteController extends Controller
     public function actionGallery() {
         return $this->render('gallery',[
 
+        ]);
+    }
+
+    public function actionCareer() {
+        return $this->render('career',[
+            'model' => new Career()
         ]);
     }
 }

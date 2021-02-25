@@ -56,7 +56,7 @@ AppAsset::register($this);
                                 </ul> -->
                             </li>
                             <li class="nav-item dropdown">
-                            <?= Html::a('Services', ['#'], ['class'=>'dropbtn nav-link']); ?>
+                            <?= Html::a('Services', ['/'], ['class'=>'dropbtn nav-link']); ?>
                             <!-- <a class="dropbtn nav-link" href="#">Services</a> -->
                                 <div class="dropdown-content">
                                     <a href="#">Security Services</a>
@@ -72,8 +72,8 @@ AppAsset::register($this);
                                 <?= Html::a('Contact Us', ['/site/contact'], ['class'=>'nav-link']); ?>
                                 <!-- <a class="nav-link" href="#">Contact Us</a> -->
                             </li>
-                            <li class="<?php echo ($this->context->route == 'site/currier')?'nav-item active':'nav-item'; ?>">
-                                <?= Html::a('Currier', ['/site/currier'], ['class'=>'nav-link']); ?>
+                            <li class="<?php echo ($this->context->route == 'site/career')?'nav-item active':'nav-item'; ?>">
+                                <?= Html::a('Career', ['/site/career'], ['class'=>'nav-link']); ?>
                                 <!-- <a class="nav-link" href="#">Carrier</a> -->
                             </li>
                         </ul>

@@ -11,8 +11,6 @@ use Yii;
  * @property string $name
  * @property string $mobile
  * @property string $email
- * @property string $job
- * @property string|null $resume
  * @property string|null $status
  * @property string|null $commant
  */
@@ -32,10 +30,10 @@ class Contacts extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'mobile', 'email', 'job'], 'required'],
+            [['name', 'mobile', 'email'], 'required'],
             [['status'], 'string'],
             [['name'], 'string', 'max' => 255],
-            [['mobile', 'email', 'job', 'resume', 'commant'], 'string', 'max' => 155],
+            [['mobile', 'email', 'commant'], 'string', 'max' => 155],
         ];
     }
 
@@ -49,7 +47,7 @@ class Contacts extends \yii\db\ActiveRecord
             'name' => 'Name',
             'mobile' => 'Mobile',
             'email' => 'Email',
-            'job' => 'Job',
+            'service' => 'Service',
             'resume' => 'Resume',
             'status' => 'Status',
             'commant' => 'Commant',

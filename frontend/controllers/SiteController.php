@@ -15,6 +15,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use common\models\Career;
+use common\models\Contacts;
 
 /**
  * Site controller
@@ -121,14 +122,57 @@ class SiteController extends Controller
     public function actionContact()
     {
         $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
-                Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
-            } else {
-                Yii::$app->session->setFlash('error', 'There was an error sending your message.');
-            }
+        if(!empty(Yii::$app->request->post())) {
+            if ($model->load(Yii::$app->request->post()) && $model->validate()) 
+            {
+                $postData = Yii::$app->request->post('ContactForm');
+                $contact = new Contacts();
+                $contact->name = $postData['name'];
+                $contact->email = isset($postData['email'])?$postData['email']:'';
+                $contact->mobile  = $postData['mobile'];
+                $contact->service  = $postData['service'];
+                $contact->commant  = $postData['body'];
+                $contact->status  = 'pending';
+                $contact->save();
 
-            return $this->refresh();
+                // Account details
+                $apiKey = urlencode('q8RMJy5S6xY-MN4lCzGX24tkDdkQNU1tcNcwAKb6eW');
+                
+                // Message details
+                $numbers = array('919928519150', '918619089370');
+                $sender = urlencode('TXTLCL');
+                $message = rawurlencode('Hi there, thank you for sending your first test message from Textlocal. See how you can send effective SMS campaigns here: https://tx.gl/r/2nGVj/');
+             
+                $numbers = implode(',', $numbers);
+             
+                // Prepare data for POST request
+                // $data = array('apikey' => $apiKey, 'numbers' => $numbers, "sender" => $sender, "message" => $message);
+                $data = 'apikey=' . $apiKey . '&numbers=' . $numbers . "&sender=" . $sender . "&message=" . $message;
+                echo 'https://api.textlocal.in/send/?' . $data; die;
+                // Send the POST request with cURL
+                $ch = curl_init('https://api.textlocal.in/send/');
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $response = curl_exec($ch);
+                curl_close($ch);
+                
+                // Process your response here
+                echo $response; die;
+                // print_r(Yii::$app->request->post()); die;
+                if ($model->sendEmail(Yii::$app->params['adminEmail'])) {
+                    Yii::$app->session->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                } else {
+                    Yii::$app->session->setFlash('error', 'There was an error sending your message.');
+                }
+                return $this->redirect(['contact']);
+                // return $this->refresh();
+            } else {
+                // print_r($model->errors); die;
+                return $this->render('contact', [
+                    'model' => $model,
+                ]);
+            }
         } else {
             return $this->render('contact', [
                 'model' => $model,
@@ -272,6 +316,11 @@ class SiteController extends Controller
     public function actionCareer() {
         return $this->render('career',[
             'model' => new Career()
+        ]);
+    }
+
+    public function actionClient() {
+        return $this->render('client',[
         ]);
     }
 }

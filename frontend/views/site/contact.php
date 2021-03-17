@@ -24,10 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
                     <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
                     <?= $form->field($model, 'mobile') ?>
                     <?= $form->field($model, 'email') ?>
+                    <?= $form->field($model,'service')->dropDownList(Yii::$app->params['services']) ?>
                     <?= $form->field($model, 'body')->textarea(['rows' => 6])->label('Comments') ?>
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
+                    <?php 
+                      // $form->field($model, 'verifyCode')->widget(Captcha::className(), [
+                      //   'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
+                      // ]);
+                    ?>
                     <div class="form-group">
                         <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
                     </div>

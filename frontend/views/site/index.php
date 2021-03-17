@@ -3,7 +3,30 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Singam Security Service';
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => 'Singham Security Services establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation.'
+]);
+$this->registerMetaTag([
+    'property' => 'og:title',
+    'content' => 'Singham Security Services Company in Jaipur | Professional Security Services.'
+]);
+$this->registerMetaTag([
+    'property' => 'og:description',
+    'content' => 'Singham Security Services establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation.'
+]);
+$this->registerMetaTag([
+    'property' => 'og:url',
+    'content' => 'http://singhamsecurity.com/web/'
+]);
 ?>
+<!-- This site is optimized with the Yoast SEO plugin v13.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="http://singhamsecurity.com/web/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Singham Security Services" />
+<!-- / Yoast SEO plugin. -->
 <!--####################### Slider Starts Here ###################-->
     <div class="slider-detail">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -57,7 +80,20 @@ $this->title = 'Singam Security Service';
                          </div>
                     </div>
                 </div>
-                
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="uploads/banners/slider5_1_1600x560.jpeg" alt="First slide">
+                    <div class="carousel-caption fvgb d-none d-md-block">
+                        <!-- <h5 class="animated bounceInDown">Bouncer Security Service Priovided</h5> -->
+                        <!-- <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque,  <br>
+                        aliquet sit amet elementum vel, vehicula eget eros. Vivamus arcu metus, mattis <br>
+                         sed sagittis at, sagittis quis neque. Praesent.</p> -->
+                         
+                         <div class="right vbh">
+                             
+                             <div class="btn btn-info animated bounceInUp"> Contact Us </div>
+                         </div>
+                    </div>
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -162,7 +198,7 @@ $this->title = 'Singam Security Service';
                 <div class="col-md-3">
                    <div class="serv-col">
                        <div class="icon">
-                            <img src="uploads/services/gun-man-services-provider-500x500_270x185.png">
+                            <img src="uploads/services/gun-man-services-provider-500x500_270x185.jpeg">
                         </div>
                         
                    </div>
@@ -252,7 +288,7 @@ $this->title = 'Singam Security Service';
             <div class="container">
                 <div class="row inner-title">
                         <h2>Our Clients</h2>
-                        <!-- <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p> -->
+                        <!-- <p>"Life is for Service"</p> -->
                 </div>
                 <div class="row customer-logos">
                         <div class="testimonial-slider client-card">
@@ -275,6 +311,18 @@ $this->title = 'Singam Security Service';
                         </div>
                         <div class="client-card testimonial-slider">
                             <img src="/uploads/clients/rgp-eye_240x140.jpeg" alt="">
+                        </div>
+                        <div class="client-card testimonial-slider">
+                            <img src="/uploads/clients/Nykaa.png" alt="" style="width: 240px; height: 140px;">
+                        </div>
+                        <div class="client-card testimonial-slider">
+                            <img src="/uploads/clients/shri-edible-private-limited-logo-120x120.jpg" alt="" style="width: 240px; height: 140px;">
+                        </div>
+                        <div class="client-card testimonial-slider">
+                            <img src="/uploads/clients/masalatrsil.jpeg" alt="" style="width: 240px; height: 140px;">
+                        </div>
+                        <div class="client-card testimonial-slider">
+                            <img src="/uploads/clients/theeclactica.jpeg" alt="" style="width: 240px; height: 140px;">
                         </div>
                     </div>
             </div>

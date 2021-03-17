@@ -55,18 +55,18 @@ AppAsset::register($this);
                                     </li>
                                 </ul> -->
                             </li>
-                            <li class="nav-item dropdown">
-                            <?= Html::a('Services', ['/'], ['class'=>'dropbtn nav-link']); ?>
-                            <!-- <a class="dropbtn nav-link" href="#">Services</a> -->
-                                <div class="dropdown-content">
-                                    <a href="#">Security Services</a>
-                                    <a href="#">Bouncer Services</a>
-                                    <a href="#">Celebrity Security Services</a>
-                                </div>
-                            </li>
                             <li class="<?php echo ($this->context->route == 'site/gallery')?'nav-item active':'nav-item'; ?>">
                             <?= Html::a('Gallery', ['/site/gallery'], ['class'=>'nav-link']); ?>
                             <!-- <a class="nav-link" href="#">Gallery</a> -->
+                            </li>
+                            <li class="<?php echo ($this->context->route == 'site/client')?'nav-item active':'nav-item'; ?>">
+                            <?= Html::a('Our Client', ['/site/client'], ['class'=>'dropbtn nav-link']); ?>
+                            <!-- <a class="dropbtn nav-link" href="#">Services</a> -->
+                                <!-- <div class="dropdown-content">
+                                    <a href="#">Security Services</a>
+                                    <a href="#">Bouncer Services</a>
+                                    <a href="#">Celebrity Security Services</a>
+                                </div> -->
                             </li>
                             <li class="<?php echo ($this->context->route == 'site/contact')?'nav-item active':'nav-item'; ?>">
                                 <?= Html::a('Contact Us', ['/site/contact'], ['class'=>'nav-link']); ?>
@@ -99,10 +99,12 @@ AppAsset::register($this);
 
 
 <div class="wrap">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= Alert::widget() ?>
+        <?php
+        //  Breadcrumbs::widget([
+        //     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+        // ]) 
+        ?>
+        <?php // Alert::widget() ?>
         <?= $content ?>
 </div>
 
@@ -111,7 +113,7 @@ AppAsset::register($this);
         <div class="row">
             <div class="col-md-4 about">
                 <h2>About Us</h2>
-                <p>Since our establishment in the year 2012 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation of our experienced mentors Mr. Dinesh Tiwari we have grown to provide security services that have become benchmarks for others in this line. </p>
+                <p>Singham Security serices establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation. </p>
                 
                 <div class="foot-address">
                     <div class="icon">
@@ -140,7 +142,7 @@ AppAsset::register($this);
                 </div>
             </div>
             <div class="col-md-4 fotblog">
-                <h2>Latest Testimonials</h2>
+                <!-- <h2>Latest Testimonials</h2>
                 <div class="blohjb">
                     <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
                     <span>22-1-2019</span>
@@ -152,7 +154,7 @@ AppAsset::register($this);
                 <div class="blohjb">
                     <p>dignissim. Integer tempor facilisis malesuada. Proin ac varius velit, tincidunt condimentum</p>
                     <span>12-4-2019</span>
-                </div>
+                </div> -->
             </div>
             <div class="col-md-4 glink" style="float: right;">
                 <ul>

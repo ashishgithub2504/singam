@@ -443,8 +443,20 @@ body {
     .client-detail {
       padding: 30px 10px; } }
   .client-detail .client-card {
-    text-align: center; }
-
+    text-align: center;
+    margin-left: 10px;
+ }
+.client-card {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #000;
+    padding: 5px;
+ }
+  @media screen and (max-width: 575px) {
+      .client-card {
+        width: 100%;
+      }
+  }
 /* ===================================== Security CSS ================================== */
 /* ===================================== Blog CSS ================================== */
 .blog-container {

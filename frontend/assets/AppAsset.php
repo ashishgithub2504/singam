@@ -13,9 +13,9 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         // 'css/site.css',
-        'css/bootstrap.min.css',
-        'css/fontawsom-all.min.css',
-        'css/style.css',
+        '/css/bootstrap.min.css',
+        '/css/fontawsom-all.min.css',
+        '/css/style.css',
         '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
         'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css'
     ];

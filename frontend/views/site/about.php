@@ -19,7 +19,7 @@ use yii\helpers\Html;
                     
                 </p>
                 <p>
-                    Singham Security serices establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation.
+                    Singham Security Services establishment in the year 2014 we have redefined the quality of delivery standards in this profession. Under the professional guidance and motivation.
                     <br>
                     Our security services are provided for celebrities, events, corporates, embassies and hotels. We also offer Gun man security, Body Guard security, lady security officers, Valet parking, cash escort services, based on the needs of the customers.
                     <br><br>
